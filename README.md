@@ -30,7 +30,6 @@ Under preparation.
 2. fine-tuned by your own
 
 ```
-# Finetune non-linearly on 2 GPUs
 python src.finetune_wandb.py --model=ViT-B-32 --world-size=2 --save=/path/to/checkpoint/
 ```
 
