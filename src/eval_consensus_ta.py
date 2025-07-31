@@ -2,7 +2,6 @@ import json
 import os
 
 import torch
-import math
 import copy
 import numpy as np
 import time
@@ -13,7 +12,6 @@ from collections import OrderedDict
 from args import parse_arguments
 from image import eval
 from eval import (
-    evaluate_task_vector,
     evaluate_task_vector_at_coef,
     add_normalized_accuracy,
     eval_single_dataset,
