@@ -24,6 +24,7 @@ For Cars, the original download link is broken, so please refer to this [issue](
 
 ## Preparering Source Models
 1. Download our checkpoints
+
 Under preparation.
 
 2. fine-tuned by your own
@@ -52,22 +53,22 @@ python src.distac.py --model=ViT-B-32 --world-size=2 --save=/path/to/checkpoint 
 ```
 
 ## Evaluation Merging Methods
-- Task Arithmetic
+- [Task Arithmetic](https://arxiv.org/abs/2212.04089)
 ```
 python src.eval_task_addtion.py --save=/path/to/checkpoint --model=ViT-B-32
 ```
 
-- Ties-Merging
+- [Ties-Merging](https://arxiv.org/abs/2306.01708)
 ```
 python src.eval_ties_merging.py --save=/path/to/checkpoint --model=ViT-B-32
 ```
 
-- Consensus TA
+- [Consensus TA](https://arxiv.org/pdf/2405.07813)
 ```
 python src.eval_consensus.py --save=/path/to/checkpoint --model=ViT-B-32
 ```
 
-- TSVM
+- [TSVM](https://arxiv.org/abs/2412.00081)
 ```
 python src.eval_tsvm.py --save=/path/to/checkpoint --model=ViT-B-32
 ```
