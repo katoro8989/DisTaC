@@ -1,6 +1,6 @@
 # 🚀 Distillation for Task Vector Conditioning (DisTaC)
 
-This repository contains the official source code accompanying our paper [**DisTaC: Conditioning Task Vectors via Distillation for Robust Model Merging**](<URL_here>).
+This repository contains the official source code accompanying our paper [**DisTaC: Conditioning Task Vectors via Distillation for Robust Model Merging**](https://arxiv.org/abs/2508.01148).
 
 ### 🧐 What's the Problem?
 In multi-task model merging, we discovered two key failure modes that severely degrade performance:
@@ -16,7 +16,7 @@ To address these issues, we introduce **DisTaC (Distillation-based Task-Vector C
 
 DisTaC achieves robust model merging with minimal additional computational overhead, effectively eliminating harmful effects caused by norm mismatch and low-confidence predictions.
 
-For full details, experiments, and analyses, please refer to our [paper](<URL_here>).
+For full details, experiments, and analyses, please refer to our [paper](https://arxiv.org/abs/2508.01148).
 
 ## Prerequisites
 
